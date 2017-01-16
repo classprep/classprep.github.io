@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="app" ng-controller="mainCtrl" ng-init="init()">
 	{% include head.html %}
 
 	<body>
-		{% include header.html %}
-		{% include about.html %}
-		{% include page_content.html %}
-		{% include contact.html %}
+		{% include main/header.html %}
+		{% include main/about.html %}
+		{% include main/page_content.html %}
+		{% include main/contact.html %}
+
 		{% include footer.html %}
-		{% include js.html %}
 	</body>
 </html>
