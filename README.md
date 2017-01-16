@@ -33,3 +33,10 @@ The contents of this repository are licensed under the [Apache
 
 ## Version
 1.0.1
+
+
+# Relative paths in Jekyll
+## RICO STA. CRUZ · MARCH 13, 2015
+>  Jekyll is a great static site tool. If you’re using GitHub Pages, it comes with it for free, making it a very useful tool for any public blog or website. It comes, though, with one common problem that I’ve yet to come across a good solution for: relative paths.
+
+[relative-paths-in-jekyll](http://ricostacruz.com/til/relative-paths-in-jekyll)
