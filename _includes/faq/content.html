@@ -30,6 +30,11 @@
 
 </style>
 
+<br>
+<br>
+<br>
+<br>
+
 		<div class="container">
 
 
@@ -45,11 +50,10 @@
         </p>
         <hr>
         <div class="row">
-          <div class="col-md-12" ng-repeat="memo in memos | filter:search">
+          <div class="col-md-12" ng-repeat="obj in all | filter:search">
             <div class="memo-box">
-              <h3 ng-bind="memo.title"></h3>
-              <h5 ng-bind="memo.content"></h5>
-              <h6 ng-bind="memo.tag"></h6>
+              <h3 ng-bind-html="obj.question| to_trusted"></h3>
+              <h5 ng-bind-html="obj.answer| to_trusted"></h5>
             </div>
           </div>
         </div>
