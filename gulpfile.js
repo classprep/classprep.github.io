@@ -1,21 +1,18 @@
-// less = require('gulp-less'),
-// gulp.task('less', function() {
-//   gulp.src('less/*.less')
-//   .pipe(less())
-//   .pipe(gulp.dest('css'))
-//   .pipe(livereload());
-// });
+var gulp = require('gulp');
+var livereload = require('gulp-livereload');
 
 
-var gulp = require('gulp'),
-    livereload = require('gulp-livereload');
-
-
-gulp.task('index', function(){
-  gulp.src('index.html').pipe(livereload());
+gulp.task('server', function(){
+	return gulp.src('./src/**/*').pipe(livereload());
 });
+
 
 gulp.task('watch', function() {
-  livereload.listen();
-  gulp.watch('index.html', ['index']);
+    console.log('start watch');
+    livereload.listen();
+	   gulp.watch('./src/**/*', ['server']);
+
+    console.log('end watch');
 });
+
+gulp.task('default', ['watch'], function(){});
