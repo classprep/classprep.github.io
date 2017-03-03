@@ -1,0 +1,9 @@
+#logosvg{
+    height:40px;
+    fill :#fff;
+}
+#logosvg svg path, 
+#logosvg svg circle,
+#logosvg svg polygon{ 
+    fill :#fff;
+}  

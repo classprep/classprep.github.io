@@ -10,9 +10,10 @@
 
     <meta name="description" content="Source code generated using layoutit.com">
     <meta name="author" content="LayoutIt!">
-<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/nanumbarungothic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/svg.css" rel="stylesheet">
     <link href="css/section-scroll.css" rel="stylesheet">
 </head>
 
@@ -25,27 +26,28 @@
                 <div class="navbar-header">
 
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-  				 <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+  				 <span class="sr-only">Toggle navigation</span>
+                   <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
   			</button>
-                    <a class="navbar-brand" href="#top">
-                        <img src="./img/logo-white.png">
+                    <a class="navbar-brand hidden-sm" href="./index.html">
+                        <object data="./img/logo.svg" type="image/svg+xml" id="logosvg" onclick="location.href='./index.html'"></object>
                     </a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <!-- <li>
-                            <a href="#howitworks">How it works</a>
+                    <ul class="nav navbar-nav navbar-right" class="hidden-xs">
+                        <li>
+                            <a href="./page1.html">How it works</a>
                         </li>
                         <li>
-                            <a href="#whouse">Who use</a>
+                            <a href="./page2.html">Who use</a>
                         </li>
                         <li>
-                            <a href="#team">Team</a>
+                            <a href="./page3.html">Team</a>
                         </li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li> -->
+                        <li style="margin-right:30px;">
+                            <a href="./page4.html">Contact</a>
+                        </li> 
                         <li class="hidden-sm visible-xs hidden-md hidden-lg">
                             <a href="https://www.theclassprep.com">
                               로그인
@@ -56,8 +58,6 @@
                               회원가입
                             </a>
                         </li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right" class="hidden-xs">
                         <li>
                             <a href="https://www.theclassprep.com" class="hidden-xs">
                                 <span class="btn">로그인<span>
@@ -75,15 +75,18 @@
 
   <section class="main-box" data-section-title="클래스프렙">
     <div class="container">
-      <div class="col-md-12 text-center">
-        <div id="typed-strings">
-          <h1>클래스프렙을 통해서<br>의미있는 스터디를 만들어보세요.</h1>
-        </div>
-        <span id="typed" style="white-space:pre;"></span>
-                </div>
-                <img alt="Classprep" src="./img/main.png">
+      <div class="col-md-12 text-center hidden-xs">
+            <div id="typed-strings">
+            <h1>클래스프렙을 통해서<br>의미있는 스터디를 만들어보세요.</h1>
             </div>
-            </section>
+            <span id="typed" style="white-space:pre;"></span>
+        </div>
+        <div class="col-md-12 text-center visible-xs">
+            <h1>클래스프렙을 통해서<br>의미있는 스터디를<br>만들어보세요.</h1>
+        </div>
+            <img alt="Classprep" src="./img/main.png">
+        </div>
+    </section>
 
 
 
@@ -92,15 +95,15 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <h1>
+                            <h2>
                               <i class="fa fa-quote-left" aria-hidden="true"></i>
-                            </h1>
+                            </h2>
                             <h1>
                               We are greater than i
                             </h1>
-                            <h1>
+                            <h2>
                               <i class="fa fa-quote-right" aria-hidden="true"></i>
-                            </h1>
+                            </h2>
                             <h4>
                       				클래스프랩은 수업에 참여하는 학생들간의 집단지성을 극대화 시키는 서비스로.
                               <br>
@@ -140,14 +143,14 @@
                                     <h4>
                           						글래스프랩은 수업에 참여하는 학생들간의 집단지성을 극대화시키는 서비스로,
                                       <br>
-                                      학생들이 동료들의 과제에 피드백을 주면서 함꼐 수업을 만들어가는 동료평가 플랫폼입니다.
+                                      학생들이 동료들의 과제에 피드백을 주면서 함께 수업을 만들어가는 동료평가 플랫폼입니다.
                           					</h4>
                                     </br>
                                     </br>
                                     <div class="row">
                                         <div class="col-sm-4">
                                             <div class="panel panel-default">
-                                                <img alt="Classprep" src="./img/type1.png">
+                                                <object data="img/essay.svg" type="image/svg+xml" id="essaysvg"></object>
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                         <h3>
@@ -166,19 +169,19 @@
                                                               과제 확인
                                                           </h4>
                                                         </span>
-                                                        <i class="fa fa-chevron-down" style="margin-bottom:15px;" aria-hidden="true"></i>
+                                                        <object data="img/down_arrow.svg" type="image/svg+xml"></object>
                                                         <span>
                                                           <h4>
                                                               에세이 작성
                                                           </h4>
                                                         </span>
-                                                        <i class="fa fa-chevron-down" style="margin-bottom:15px;" aria-hidden="true"></i>
+                                                        <object data="img/down_arrow.svg" type="image/svg+xml"></object>
                                                         <span>
                                                           <h4>
                                                               동료 및 자기 평가
                                                           </h4>
                                                         </span>
-                                                        <i class="fa fa-chevron-down" style="margin-bottom:15px;" aria-hidden="true"></i>
+                                                        <object data="img/down_arrow.svg" type="image/svg+xml"></object>
                                                         <span>
                                                           <h4>
                                                               결과 확인
@@ -190,7 +193,7 @@
                                         </div>
                                         <div class="col-sm-4">
                                             <div class="panel panel-default">
-                                                <img alt="Classprep" src="./img/type2.png">
+                                                <object data="img/question.svg" type="image/svg+xml" id="questionsvg"></object>
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                         <h3>
@@ -208,19 +211,19 @@
                                                               과제 확인
                                                           </h4>
                                                         </span>
-                                                        <i class="fa fa-chevron-down" style="margin-bottom:15px;" aria-hidden="true"></i>
+                                                        <object data="img/down_arrow.svg" type="image/svg+xml"></object>
                                                         <span>
                                                           <h4>
                                                               질문 작성
                                                           </h4>
                                                         </span>
-                                                        <i class="fa fa-chevron-down" style="margin-bottom:15px;" aria-hidden="true"></i>
+                                                        <object data="img/down_arrow.svg" type="image/svg+xml"></object>
                                                         <span>
                                                           <h4>
                                                               동료 평가
                                                           </h4>
                                                         </span>
-                                                        <i class="fa fa-chevron-down" style="margin-bottom:15px;" aria-hidden="true"></i>
+                                                        <object data="img/down_arrow.svg" type="image/svg+xml"></object>
                                                         <span>
                                                           <h4>
                                                               결과 확인
@@ -232,7 +235,7 @@
                                         </div>
                                         <div class="col-sm-4">
                                             <div class="panel panel-default">
-                                                <img alt="Classprep" src="./img/type3.png">
+                                                <object data="img/quiz.svg" type="image/svg+xml" id="quizsvg"></object>
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                         <h3>
@@ -250,13 +253,13 @@
                                                               과제 확인
                                                           </h4>
                                                         </span>
-                                                        <i class="fa fa-chevron-down" style="margin-bottom:15px;" aria-hidden="true"></i>
+                                                        <object data="img/down_arrow.svg" type="image/svg+xml"></object>
                                                         <span>
                                                           <h4>
                                                               과제 수행
                                                           </h4>
                                                         </span>
-                                                        <i class="fa fa-chevron-down" style="margin-bottom:15px;" aria-hidden="true"></i>
+                                                        <object data="img/down_arrow.svg" type="image/svg+xml"></object>
                                                         <span>
                                                           <h4>
                                                               결과 확인
@@ -423,27 +426,25 @@
                             <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
                               <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
                             </button> -->
-                            <a class="navbar-brand" href="#">
-                                <img src="./img/logo-white.png">
+                            <a class="navbar-brand" href="./index.html" class="hidden-md">
+                                <object data="./img/logo.svg" type="image/svg+xml" id="logosvg" onclick="location.href='./index.html'"></object>
                             </a>
                         </div>
 
-                        <!-- <div class="collapse navbar-collapse">
-                            <ul class="nav navbar-nav">
-                                <li>
-                                    <a href="#howitworks">How it works</a>
-                                </li>
-                                <li>
-                                    <a href="#whouse">Who use</a>
-                                </li>
-                                <li class="dropdown">
-                                    <a href="#team">Team</a>
-                                </li>
-                                <li class="dropdown">
-                                    <a href="#contact">Contact</a>
-                                </li>
-                            </ul>
-                        </div> -->
+                        <ul class="nav navbar-nav navbar-right hidden-xs">
+                            <li>
+                                <a href="./page1.html">How it works</a>
+                            </li>
+                            <li>
+                                <a href="./page2.html">Who use</a>
+                            </li>
+                            <li>
+                                <a href="./page3.html">Team</a>
+                            </li>
+                            <li style="margin-right:30px;">
+                                <a href="./page4.html">Contact</a>
+                            </li> 
+                        </ul> 
                     </div>
                 </nav>
             </div>
