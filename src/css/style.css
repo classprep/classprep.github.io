@@ -13,7 +13,7 @@
    padding: 0px;
    margin : 0px;
    color: #2b3a4f;
-   line-height:1.5;
+   line-height:1.3;
  }
  html,body{
    font-family: 'Nanum Barun Gothic', sans-serif;
@@ -59,7 +59,7 @@ h4 comment
       font-size:22px;
     }
     h4{
-      font-size:16px;
+      font-size:14px;
     }
 }
 
@@ -74,7 +74,7 @@ h4 comment
       font-size:24px;
     }
     h4{
-      font-size:18px;
+      font-size:16px;
     }
 }
 
@@ -117,6 +117,7 @@ h4{
 .navbar-fixed-top .navbar-collapse {
     height: 250px;
 }
+
 
 .navbar.first {
     background-color: #0765E8;
@@ -176,7 +177,7 @@ h4{
 @media (min-width: 768px) {
     .nav.navbar-nav li a {
       padding-left:10px;
-      padding-right:10px;
+      padding-right:5px;
     }
 }
 
@@ -194,7 +195,7 @@ h4{
 .nav.navbar-nav span.btn{
     margin-top: -5px;
     box-shadow: none;
-    padding: 5px 0px;
+    padding: 7px 0px;
     color: rgba(250,250,250,.7);
     background-color: rgba(7,101,232,.7);
     border: 1px solid rgba(250,250,250,.7);
@@ -316,6 +317,10 @@ span.btn.active{
 .main-box:nth-child(4) h4{
   margin-bottom:0px;
   margin-top:0px;
+}
+.main-box:nth-child(4) .panel{
+    background-color:transparent;
+    border : 1px solid #E1E1E1
 }
 .main-box:nth-child(4) span{
   display:block;
