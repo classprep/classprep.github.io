@@ -33,7 +33,7 @@
     text-align: right;
     font-size: 13px;
     text-transform: uppercase;
-    line-height: 1;
+    line-height: 0;
     position: relative;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
@@ -74,9 +74,9 @@
     transition-duration: .3s;
     opacity: 0.5;
     margin-left: 5px;
-    padding: 5px 20px 5px 10px;
+    /*padding: 5px 20px 5px 10px;*/
     text-decoration: none;
-    min-height: 11px;
+    min-height: 10px;
 }
 
 .section-bullets li span {

@@ -258,7 +258,8 @@ span.btn.active{
 .main-box:nth-child(2) {
   position:relative;
   min-height:500px;
-  height:calc(100vh - 12vh);
+  /*height:calc(100vh - 12vh);*/
+  height : 100vh;
     background-color: #0765E8;
 }
 .main-box:nth-child(2) *{
