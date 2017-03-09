@@ -82,12 +82,16 @@ h1,h2,h3,h4{
   font-weight: 300;
   margin-bottom:20px;
 }
+h1{
+  margin-bottom:30px;
+}
 h3,h4{
   line-height:1.5;
 }
 h4{
   opacity : .7;
 }
+
 /*.btn {
     margin-top:50px;
     box-shadow: none;
@@ -252,7 +256,7 @@ span.btn.active{
     box-shadow : none;
 }
 
-.main-box.client-box .panel {
+.main-box.client-box .panel{
     width: 200px;
     display: inline-block;
     background-color : transparent;
@@ -365,7 +369,7 @@ span.btn.active{
 }
 
 .main-box.sub .container{
-  height:100vh;
+
   background-color : #fff;
   color : #1b222b;
 }
@@ -385,15 +389,82 @@ span.btn.active{
     padding:50px 50px;
   }
 }
+.team-box .panel {
+    width: 200px;
+    display: inline-block;
+    background-color : transparent;
+    margin: 0px 15px 30px 15px;
+}
+.team-box .panel h3, .team-box .panel h4{
+  line-height: 1;
+  margin-bottom:5px;
+}
+.team-box .panel img{
+  width:170px;
+  height:170px;
+  border-radius: 50%;
+}
+.team-box .panel .blank-img{
+  width:170px;
+  height:170px;
+  background-color:#0765E8;
+  opacity : .7;
+  border-radius:50%;
+}
 
+.contact-box h4{
+  margin-bottom:10px;
+}
+.contact-box hr{
+  margin : 35px 0px;
+}
+
+
+.use-box{
+
+  min-height:250px;
+  margin-bottom:50px;
+  border: 1px solid #a6a6a6;
+}
+.use-box .col-sm-12,
+.use-box .col-md-6{
+}
+
+.use-box.sub1 .col-md-6.col-sm-12:nth-child(1)
+{
+  background : url("../img/use1.jpeg") center center no-repeat;
+  background-size: cover;
+  height:250px;
+}
+.use-box.sub2 .col-sm-12.col-md-6:nth-child(1),
+.use-box.sub2 .col-sm-12.col-md-6:nth-child(3)
+{
+  background : url("../img/use2.jpeg") center center no-repeat;
+  background-size: cover;
+  height:250px;
+}
+.use-box.sub3 .col-md-6.col-sm-12:nth-child(1)
+{
+  background : url("../img/use3.jpeg") center center no-repeat;
+  background-size: cover;
+  height:250px;
+}
+.use-box.sub4 .col-sm-12.col-md-6:nth-child(1),
+.use-box.sub4 .col-sm-12.col-md-6:nth-child(3)
+{
+  background : url("../img/use4.jpeg") center center no-repeat;
+  background-size: cover;
+  height:250px;
+}
 
 
 
 .main-box.sub .sub-title{
-  font-size:30px;
+  font-size:24px;
   color : #fff;
-  background-color:#1b222b;
+  background-color:#2b3a4f;
   margin : 30px 0px 50px 0px;
+  padding:10px 0px;
 }
 
 .main-box.sub .sub-list-image{
