@@ -376,7 +376,7 @@ span.btn.active{
 
 @media (max-width: 767px) {
   .main-box.sub .container{
-    padding:50px 0px;
+    padding:50px 20px;
   }
 }
 @media (min-width: 768px ) and (max-width: 991px) {
@@ -475,6 +475,61 @@ span.btn.active{
   min-height:150px;
   padding: 20px 0px;
 }
+
+
+
+.why-bg{
+  text-align: center;
+  background : url("../img/why.jpeg") center center no-repeat;
+  background-size: cover;
+  height:320px;
+  padding-top:50px;
+}
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+.why-bg span{
+  font-family: 'Jeju Myeongjo', serif;
+  line-height:1.6;
+  color : #fafafa;
+  opacity:.7;
+}
+.why-bg span.title{
+  font-size:18px;
+}
+
+
+.traditional{
+  background : url("../img/traditional.jpeg") center center no-repeat;
+  background-size: contain;
+  height:160px;
+}
+
+.flipped{
+  background : url("../img/flipped.jpeg") center center no-repeat;
+  background-size: contain;
+  height:160px;
+}
+
+@media (max-width: 991px) {
+  .traditional{
+    background-position: center center;
+  }
+
+  .flipped{
+    background-position: center center;
+  }
+}
+@media (min-width: 992px ){
+  .traditional{
+    background-position: center right;
+  }
+
+  .flipped{
+    background-position: center left;
+  }
+}
+
+
+
 
 
 /*
