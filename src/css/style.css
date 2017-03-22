@@ -281,23 +281,24 @@ span.btn.active{
     position: absolute;
     left:50%;
     bottom: 0px;
+
 }
 @media (max-width: 767px) {
   .main-box:nth-child(2):not(.sub) img {
-      width: 400px;
-      margin-left: -200px;
+      width: 350px;
+      margin-left: -175px;
   }
 }
 @media (min-width: 768px ) and (max-width: 991px) {
   .main-box:nth-child(2):not(.sub) img {
-      width: 600px;
-      margin-left: -300px;
+      width: 550px;
+      margin-left: -275px;
   }
 }
 @media (min-width: 992px) {
   .main-box:nth-child(2):not(.sub) img {
-      width: 800px;
-      margin-left: -400px;
+      width: 750px;
+      margin-left: -375px;
   }
 }
 
@@ -363,8 +364,8 @@ span.btn.active{
 
 .main-box.sub {
     background-color:#ecf0f1;
-    padding-top : 40px;
-    padding-bottom:0px;
+    padding-top : 90px;
+    padding-bottom:30px;
 
 }
 
@@ -422,9 +423,9 @@ span.btn.active{
 
 .use-box{
 
-  min-height:250px;
+  min-height:300px;
   margin-bottom:50px;
-  border: 1px solid #a6a6a6;
+  border: 1px solid #CCC;
 }
 .use-box .col-sm-12,
 .use-box .col-md-6{
@@ -434,27 +435,27 @@ span.btn.active{
 {
   background : url("../img/use1.jpeg") center center no-repeat;
   background-size: cover;
-  height:250px;
+  height:300px;
 }
 .use-box.sub2 .col-sm-12.col-md-6:nth-child(1),
 .use-box.sub2 .col-sm-12.col-md-6:nth-child(3)
 {
   background : url("../img/use2.jpeg") center center no-repeat;
   background-size: cover;
-  height:250px;
+  height:300px;
 }
 .use-box.sub3 .col-md-6.col-sm-12:nth-child(1)
 {
   background : url("../img/use3.jpeg") center center no-repeat;
   background-size: cover;
-  height:250px;
+  height:300px;
 }
 .use-box.sub4 .col-sm-12.col-md-6:nth-child(1),
 .use-box.sub4 .col-sm-12.col-md-6:nth-child(3)
 {
   background : url("../img/use4.jpeg") center center no-repeat;
   background-size: cover;
-  height:250px;
+  height:300px;
 }
 
 
