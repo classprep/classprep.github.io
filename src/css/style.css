@@ -148,12 +148,29 @@ h4{
     padding-bottom:20px;
 }
 
+.navbar.last .navbar-header, .navbar.last .navbar-brand {
+	float: none;
+}
+
+.navbar.last p {
+	color: #FFFFFF;
+}
+
+.navbar.last .copyright {
+	font-size: 0.7em;
+}
 
 .navbar.last li a {
   color: #a8a9ab;
 }
 .navbar.last li a:hover, .navbar.last li a:focus, .navbar.last li a:active {
   color: #FFFFFF;
+}
+
+.navbar.last .icon {
+	height: 40px;
+	margin-left: 10px;
+	margin-bottom: 10px;
 }
 
 .navbar-header .navbar-brand img {
