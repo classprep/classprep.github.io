@@ -119,7 +119,6 @@ h4{
 }
 
 .navbar-fixed-top .navbar-collapse {
-    height: 250px;
 }
 
 
@@ -180,7 +179,6 @@ h4{
 .nav.navbar-nav {
     text-decoration: none;
     color: #fafafa;
-    height: 60px;
 }
 
 .nav.navbar-nav li a {
